@@ -1,0 +1,718 @@
+.foto_perfil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0d1943;
+
+}
+
+.nombre_apellido {
+    color: white;
+    flex-basis: 3;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+}
+
+.menuImg {
+    width: 1.5em;
+    display: none;
+    align-items: center;
+}
+
+.redes {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    width: 1.5em;
+}
+
+.foto_perfil_circular {
+
+    display: flex;
+    flex-basis: 1;
+    border-radius: 20%;
+    height: 10em;
+    border: solid 5px #0d1943;
+
+}
+
+.menu_paginas {
+    list-style: none;
+    display: inline-block;
+    padding: 1em 2em;
+    cursor: pointer;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.menu {
+    margin-top: 0.3em;
+    text-align: center;
+    flex-direction: row;
+    background-color: #0d1943;
+}
+
+nav ul li a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_paginas_enlace:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.menu_paginas:focus {
+    background-color: rgb(44, 140, 184);
+    width: 100%;
+
+}
+
+.ver_mas_articulo {
+    width: 100%;
+    padding: 1em;
+    background-color: #AD6800;
+    color: white;
+    text-align: 20px;
+    cursor: pointer;
+}
+
+.articulo_boton_principal {
+    position: relative;
+    bottom: 0;
+}
+
+.menu_paginas_enlace {
+    width: 100%;
+    padding: 20px 5px 20px 5px;
+
+}
+
+.menu_paginas_enlace:hover {
+    background-color: rgb(44, 140, 184);
+    padding: 20px 5px 20px 5px;
+    border-radius: 10%;
+
+}
+
+.Bienvenida_Titulo {
+    color: #AD6800;
+    text-align: center;
+}
+
+.bienvenida_img {
+    width: 100%;
+
+}
+
+.Proyectos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+.Proyectos_titulo_principal {
+    text-align: center;
+}
+
+.Proyectos_titulo {
+    text-align: center;
+    font-size: 26px;
+}
+
+.Proyecto_imagen {
+    height: 20em;
+    display: block;
+    margin: auto;
+    box-shadow: 10px 10px 5px rgb(32, 32, 32);
+}
+
+.Proyectos_resumen {
+    width: 40%;
+    margin: 6em 2em;
+    background-color: #7AC6FF;
+    box-shadow: 5px 5px 5px rgb(32, 32, 32);
+}
+
+.Proyecto_resumen {
+    text-align: center;
+    padding: 2em;
+}
+
+.proyecto_inicio_boton {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-bottom: 2em;
+    letter-spacing: 3PX;
+    background-color: #AD6800;
+    padding: 1em;
+    font-size: 20px;
+    margin-right: auto;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    justify-content: center;
+    cursor: pointer;
+    box-shadow: 5px 5px 5px rgb(32, 32, 32);
+}
+
+.texto_proyecto {
+    text-decoration: none;
+}
+
+.boton_ver_mas {
+    background-color: #1069AD;
+    font-size: 20px;
+    padding: 1em;
+    margin: 1em;
+    text-decoration: none;
+    margin-bottom: 3em;
+
+}
+
+.boton_ver_mas :hover {
+    text-decoration: none;
+    color: white;
+}
+
+.boton_ver_mas :visited {
+    color: white;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.texto_boton_ver_mas {
+    text-decoration: none;
+}
+
+.Ver_mas_proyectos {
+    text-align: center;
+    border-bottom: 15%;
+    font-size: 16px;
+}
+
+.Articulos_titulo_principal {
+    text-align: center;
+}
+
+.Articulos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+.Articulos_imagen {
+    width: 40%;
+    margin: auto;
+    display: block;
+
+}
+
+.Articulos_titulo {
+    text-align: center;
+    color: black;
+}
+
+.Articulos_resumen {
+    width: 40%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    border: #7AC6FF 10px solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.Articulo_resumen {
+    text-align: justify;
+    color: black;
+    padding: 1em 3em;
+    align-content: stretch;
+    align-items: stretch;
+
+}
+
+.Ver_mas_articulos {
+    text-align: center;
+}
+
+.articulosCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.proyectosCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.clases_programa {
+    padding: 0;
+}
+
+.clases_programa {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.Caracteristicas {
+    display: flex;
+    background-color: #30A3FA;
+    padding: 1em;
+    border-radius: 10%;
+    margin: 0 0.5em;
+    margin-top: 1em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    color: white;
+}
+
+.Proyecto_imagen {
+    opacity: 1;
+    width: 100%;
+}
+
+.Proyecto_imagen:hover {
+    opacity: 0.9;
+}
+
+.caja_parrafo {
+    width: 100%;
+
+}
+
+.botones {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+
+.tarjeta {
+    background-color: rgb(44, 140, 184);
+}
+
+.letras {
+    color: #0d1943;
+}
+
+.fondo {
+    background-color: #0d1943;
+    margin-top: 0.3em;
+}
+
+.botonArt {
+    background-color: #0d1943;
+    border-radius: 20px;
+    padding: 5px;
+    align-content: center;
+}
+
+.footerEnd {
+    background-color: #0d1943;
+    margin-top: 1em;
+}
+
+.primer_parrafo {
+    background-color: #A9A5A4;
+    font-size: 24px;
+    padding: 4em;
+    text-align: center;
+    box-shadow: 10px 10px 5px rgb(32, 32, 32)
+}
+
+
+.imagen_articulos {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    box-shadow: 5px 5px 5px rgb(32, 32, 32);
+    height: 100%;
+    width: 50%;
+    padding-top: 2em;
+}
+
+/*informacion sobre el curriculum*/
+
+.experienciaLaboral {
+    display: flex;
+    flex-direction: row;
+}
+
+.experienciaInf {
+    width: 80%;
+}
+
+.experienciaCursos {
+    border: black solid 2px;
+    border-radius: 8%;
+    width: 20%;
+}
+
+.card {
+    margin: 2%;
+}
+
+
+.conocimientosCard {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+
+#cajaArrastrar {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    display: block;
+    margin: 10px;
+}
+
+#cajaArrastrado {
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    background-color: blue;
+}
+
+#cajaPrincipal {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.textoCaja {
+    font-size: 14px;
+}
+
+
+#formulario {
+    text-align: center;
+}
+
+.recipiente_articulo {
+    flex-direction: column;
+    background: black;
+    letter-spacing: 2px;
+    border: black 1px solid;
+    margin: 1em;
+    flex-wrap: wrap;
+    width: 20rem;
+
+}
+
+.recipiente_pelicula {
+    flex-direction: column;
+    background: blue;
+    letter-spacing: 2px;
+    border: black 1px solid;
+    margin: 1em;
+    flex-wrap: wrap;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80%;
+
+}
+
+.recipiente_musica {
+    flex-direction: column;
+    background: green;
+    letter-spacing: 2px;
+    border: black 1px solid;
+    margin: 1em;
+    flex-wrap: wrap;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 80%;
+
+}
+
+.articulos {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.titulo_recipiente_peliculas {
+    text-align: center;
+    color: white;
+}
+
+.resumen_recipiente_peliculas {
+    text-align: center;
+    color: white;
+}
+
+.peliculas {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.musica {
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.titulo_recipiente_musica {
+    text-align: center;
+    color: white;
+}
+
+.resumen_recipiente_musica {
+    text-align: center;
+    color: white;
+}
+
+.titulo_recipiente_articulos {
+    text-align: center;
+    color: white;
+}
+
+.resumen_recipiente_articulos {
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* responsive para telefonos celulares*/
+
+
+@media screen and (max-width: 550px) {
+    .foto_perfil_circular {
+        width: 10em;
+    }
+
+    .nombre_apellido {
+        font-size: 20px;
+    }
+
+    .menu_paginas_enlace {
+        font-size: 16px;
+
+    }
+
+    .menu_principal {
+        width: 100%;
+        padding: 0;
+    }
+
+    .menu_paginas {
+        border-bottom: solid white 2px;
+
+
+    }
+
+    .curriculum_perfil {
+        margin: 0;
+        padding: 2em 0;
+        font-size: 14px;
+        justify-content: center;
+
+    }
+
+    .redes {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .formacion {
+        margin: 0;
+        padding: 0;
+    }
+
+    .curriculum_formacion {
+        margin: 0;
+        padding: 1em 0;
+        font-size: 14px;
+    }
+
+    .foto_perfil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .curriculum_cursos {
+        font-size: 14px;
+    }
+
+    .informacion_separacion {
+        width: 100%;
+
+    }
+
+
+    .clases_programa {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .Caracteristicas {
+        flex-wrap: wrap;
+        width: auto;
+        padding: 0.5em;
+        border-radius: 0;
+        font-size: 14px;
+        justify-content: center;
+        border-radius: 5%;
+
+    }
+
+    .Proyectos_resumen {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        margin: 1em 1em;
+    }
+
+
+    .menu_principal {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Proyecto_imagen {
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+
+    .Bienvenida_Titulo {
+        font-size: 16px;
+    }
+
+    .Proyectos_titulo {
+        font-size: 16px;
+    }
+
+    .Proyectos_titulo_principal {
+        font-size: 16px;
+    }
+
+    .Proyecto_resumen {
+        font-size: 14px;
+        margin: 0 1em 1em 1em;
+
+        padding: 0;
+    }
+
+    .proyecto_inicio_boton {
+        font-size: 16px;
+        margin: 0;
+        margin-top: 1em;
+
+    }
+
+    .boton_ver_mas {
+        width: 80%;
+        padding: 0.5em;
+        margin: 1.5em;
+    }
+
+    .Articulos_resumen {
+        width: 80%;
+    }
+
+    .Articulo_resumen {
+        padding: 1em;
+    }
+
+    .Articulos_imagen {
+        width: 100%;
+    }
+
+    .imagen_cursos {
+        order: 1;
+        width: 100%;
+    }
+
+    .img_cursos_curriculum {
+        justify-content: center;
+
+    }
+
+    .perfil {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cursos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .experiencia {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formacion {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .perfil_perfil {
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .experiencia_laboral {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .menuImgP {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    .proyectosCard {
+        display: flex;
+        justify-content: center;
+    }
+
+    .menuImg {
+        display: block;
+        width: 3em;
+    }
+}

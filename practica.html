@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jonatan Aranguren</title>
+
+    <link rel="stylesheet" href="margen/margen.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+    <main>
+        <div class="foto_perfil">
+            <img src="imagenes/portada.jpg" class="foto_perfil_circular">
+            <H1 class="nombre_apellido">Jonatan Elias <br>Aranguren Salamanquez </H1>
+            <div class="redes">
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/jonatan-aranguren/" class="link"><img
+                            src="imagenes/linkedin.png" class="logo">
+                        <p>Linkedin</p>
+                    </a>
+                </div>
+                <div>
+                    <img src="imagenes/correo.png" class="logo">
+                    <p>jonatanaranguren123@hotmail.com</p>
+                </div>
+            </div>
+        </div>
+
+        <nav class="menu">
+            <div class="menuImgP">
+                <img src="imagenes/menu.png" class="menuImg" id="menu">
+            </div>
+            <ul class="menu_principal" id="menuInd">
+                <li class="menu_paginas"><a href="index.html" class=menu_paginas_enlace>Inicio </a></li>
+                <li class="menu_paginas"><a href="articulos.html" class=menu_paginas_enlace>Articulos</a></li>
+                <li class="menu_paginas"><a href="proyectos.html" class=menu_paginas_enlace>Proyectos</a></li>
+                <li class="menu_paginas"><a href="curriculum.html" class=menu_paginas_enlace>Curriculum</a></li>
+                <li class="menu_paginas"><a href="practica.html" class=menu_paginas_enlace>Practicas </a></li>
+            </ul>
+        </nav>
+    </main>
+    <section class="fondo">
+        <div id="accordion">
+            <h3>Colocar informacion en el imput y enviarlo a formulario</h3>
+            <div>
+                <h2>Coloque su juego</h1>
+                    <form id="formula">
+                        <input type="text" id="juegos"></imput>
+                        <button type="submit">enviar juego</button>
+                    </form>
+                    <h2>Colocar juego</h1>
+                        <div id="listaJuegos">
+                            <ul id="lista">
+                            </ul>
+                            <br>
+                            <p>Aqui se practica LocalStorage, submit e insertar informacion en el documento HTML</p>
+                        </div>
+            </div>
+            <h3>Uso de boton Mostrar y Ocultar</h3>
+            <div>
+                <h2>boton Mostrar y Ocultar</h1>
+                    <p id="quitar">Al presionar el boton de ocutar se estara quitando este parrafo</p>
+                    <button id="mostrar">Mostrar</button>
+                    <button id="ocultar">Ocultar</button>
+                    <br>
+                    <p>Aqui se practica el uso de la funcion .hide y .show con Jquery</p>
+
+            </div>
+            <h3>Estilo de Input</h3>
+            <div>
+                <h2>Distintos tipos de input</h2>
+                <input id="estiloInput" type="text"> fondo gris con letras blancas al ingresar, normalidad al
+                salir<br><br>
+                <input id="estiloInput2" type="text"> agrandado el input con borde azul y letras rojas al ingresar,
+                tamaño chico al salir<br><br>
+                <input id="estiloInput3" type="text"> al dar click se agrandara a lo ancho, borde azul, letras blancas,
+                al salir quedara de la misma manera
+                <br>
+                <p>Aqui se practica el uso de la funcion .focus y .blur con Jquery</p>
+            </div>
+            <h3>Maquina de votacion</h3>
+            <div>
+                <form id="maquinaVotacion">
+                    <h2>coloque su nacionalidad</h2>
+                    <input type="text" id="nacionalidad">
+                    <h2>coloque su edad</h2>
+                    <input type="number" id="edad"><br><br>
+                    <button type="submit" id="enviar">Enviar datos</button>
+                    <p> Si eres Uruguayo y mayor de edad podras votar</p>
+                    <p> Si eres de una nacionalidad distinta a Uruguayo no podras votar</p>
+                    <p> Si eres Uruguayo menor de edad no podras votar</p><br><br>
+                    <p> Aqui se practica el uso del if, comparaciones y tomar datos con el boton submit </p>
+                </form>
+            </div>
+            <h3>Seleccione la opcion y se guarda en su espacio</h3>
+            <div>
+                <form id="formulario">
+                    <select id="opciones">
+                        <option value="Articulo" id="articulo">Articulo</option>
+                        <option value="Musica" name="musica" id="musica">Musica</option>
+                        <option value="Pelicula" id="pelicula">Pelicula</option>
+                        <input type="text" id="nombre_formulario" placeholder="Nombre">
+                        <input type="text" id="resumen_formulario" placeholder="Resumen">
+                        <button type="submit" id="boton_formulario">Enviar Datos</button>
+                </form>
+                <h1>Articulos</h1>
+                <div id="articulos" class="articulos"> </div>
+                <h1> Peliculas</h1>
+                <div id="peliculas" class="peliculas"></div>
+                <h1> Musica</h1>
+                <div id="musicas" class="musica"></div>
+            </div>
+            <h3>Arrastrar cajas con draggable para realizar una accion con droppable </h3>
+            <div>
+                <div id="cajaPrincipal">
+                    <div id="cajaArrastrar">
+                        <h3 class="textoCaja">Mueveme a la caja azul</h3>
+                    </div>
+                    <div id="cajaArrastrado">
+                    </div>
+                    <div id="resultado"></div>
+                </div>
+            </div>
+            <h3>opcion 2</h3>
+            <div>
+                <p>prueba</p>
+            </div>
+            <h3>opcion 2</h3>
+            <div>
+                <p>prueba</p>
+            </div>
+            <h3>opcion 2</h3>
+            <div>
+                <p>prueba</p>
+            </div>
+            <h3>opcion 2</h3>
+            <div>
+                <p>prueba</p>
+            </div>
+        </div>
+
+
+    </section>
+    <script src="/JS/program.js"></script>
+
+</body>
+<footer class="footerEnd">
+    <div class="container pt-4 pb-3 pt-lg-5 pb-lg-4">
+        <div class="row pt-2 pt-lg-0">
+            <div class="col-lg-2 col-md-3 col-sm-6 offset-xl-1 mb-2 mb-sm-4">
+                <h3 class="fs-base " style='color: rgb(44, 140, 184)'>Paginas</h3>
+                <ul class="list-unstyled fs-sm">
+                    <li><a class="nav-link-light letras" href="#" style='color: white'>Inicio</a></li>
+                    <li><a class="nav-link-light" href="articulos.html" style='color: white'>Articulos</a></li>
+                    <li><a class="nav-link-light" href="proyectos.html" style='color: white'>Proyectos</a></li>
+                    <li><a class="nav-link-light" href="curriculum.html" style='color: white'>Curriculum</a></li>
+                    <li><a class="nav-link-light" href="practica.html" style='color: white'>Practicas</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xl-2 col-lg-3 col-sm-6 col-md-3 mb-2 mb-sm-4">
+                <a class="d-flex align-items-center text-decoration-none mb-2">
+                    <i class="fi-device-mobile me-2"></i><span class="text-light">whatsapp(+598) 99879848 </span><a
+                        class="d-flex align-items-center text-decoration-none mb-2"
+                        href="mailto:jonatanaranguren123@hotmail.com"><i class="fi-mail me-2"></i><span
+                            class="text-light">jonatanaranguren123@hotmail.com</span></a>
+                    <a href="https://www.linkedin.com/in/jonatan-aranguren/"
+                        class=" fi-mail me-2 text-light align-items-center text-decoration"> Linkedin</a>
+            </div>
+        </div>
+    </div>
+    <script src="/JS/program.js"></script>
+
+</footer>
