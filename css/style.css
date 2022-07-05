@@ -6,7 +6,12 @@
     background-color: #0d1943;
 
 }
-
+#inicio{
+    background-color: #0d1943;
+    width:100%;
+    text-align: center;
+    padding: 100px;
+}
 .nombre_apellido {
     color: white;
     flex-basis: 3;
@@ -527,6 +532,7 @@ nav ul li a:link {
     .menu_principal {
         width: 100%;
         padding: 0;
+        display: none;
     }
 
     .menu_paginas {
@@ -687,7 +693,13 @@ nav ul li a:link {
         display: flex;
         flex-direction: column;
     }
-
+    #inicio{
+        padding: 0;
+        
+    }
+    .imagenPre{
+        max-width: 100%;
+    }
     .perfil_perfil {
         text-align: center;
         font-size: 18px;

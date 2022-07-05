@@ -195,7 +195,7 @@ $(document).ready(function () {
         $("#tabCurriculum").tabs();
         }
 
-
+        
     $(".menuImg").click(function () {
             $(".menu_principal").toggle("slow");
         });
